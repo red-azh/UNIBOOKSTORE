@@ -33,8 +33,9 @@
                         <td>{{$pn->alamat}}</td>
                         <td>{{$pn->kota}}</td>
                         <td>{{$pn->telepon}}</td>
-                        <td>
-                            <a href="{{route('penerbit.edit', $pn->id)}}"><button class="btn btn-info">edit</button></a>
+                        <td class="d-flex">
+                            <a href="{{route('penerbit.edit', $pn->id)}}"><button
+                                    class="btn btn-info me-2">edit</button></a>
                             <form action="{{ route('penerbit.destroy', $pn->id) }}" method="POST">
                                 @csrf
                                 @method('DELETE')

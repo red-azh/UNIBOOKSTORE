@@ -2,7 +2,7 @@
 @section('konten')
 <div class="col-sm-12 col-xl-12">
     <div class="bg-secondary rounded h-100 p-4">
-        <h6 class="mb-4">Basic Form</h6>
+        <h6 class="mb-4">Tamba data</h6>
         <form action="{{route('penerbit.store')}}" method="post">
             @csrf
             <div class="row">

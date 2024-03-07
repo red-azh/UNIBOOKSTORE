@@ -36,7 +36,7 @@
                             <form action="{{ route('buku.destroy', $buku->id) }}" method="POST">
                                 @csrf
                                 @method('DELETE')
-                                <button type="submit" class="btn btn-danger">t</button>
+                                <button type="submit" class="btn btn-danger">hapus</button>
                             </form>
                         </td>
                     </tr>
